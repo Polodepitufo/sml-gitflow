@@ -5,7 +5,7 @@ require_once __DIR__ . '/../../router.php';
 // ERROR INTENCIONADO PARA PRACTICAR UN HOTFIX:
 // Esta excepción detiene la página antes de generar el HTML y deja el dashboard inaccesible.
 // HOTFIX: eliminar o comentar la siguiente línea para recuperar el panel.
-throw new RuntimeException('Error intencionado de demostración: dashboard fuera de servicio.');
+//throw new RuntimeException('Error intencionado de demostración: dashboard fuera de servicio.');
 ?>
 <!doctype html>
 <html lang="es">
